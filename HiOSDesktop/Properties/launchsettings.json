@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "HiOSDesktop (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "HiOSDesktop (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
