@@ -10,9 +10,9 @@ HiOSDesktop is only compatible with X64 computers, running Windows 10 1709 and n
 <h3>Do this first when installing for the first time:</h3>
 1) on Windows, open this website, and download the latest .msixbundle file from the releases tab <a href="https://github.com/aarjay123/hiosdesktop/releases/latest">(here)</a><br><br>
 2) once downloaded, open the folder you downloaded HiOSDesktop, then right-click on the file.<br><br>
-3) select <b>Properties</b>, then go to the <b>Digital Signatures</b> tab.
-4) click <b>Details</b>, then <b>View Certificate</b>, then <b>Install Certificate</b>, select the <b>Local Machine</b> option, and click <b>Next</b>.
-5) choose <b>Place all certificates in the following store</b>, click <b>Browse...</b>, scroll down and choose <b>Trusted People</b>, and click <b>OK</b>.
+3) select <b>Properties</b>, then go to the <b>Digital Signatures</b> tab.<br><br>
+4) click <b>Details</b>, then <b>View Certificate</b>, then <b>Install Certificate</b>, select the <b>Local Machine</b> option, and click <b>Next</b>.<br><br>
+5) choose <b>Place all certificates in the following store</b>, click <b>Browse...</b>, scroll down and choose <b>Trusted People</b>, and click <b>OK</b>.<br><br>
 6) click <b>Next</b>, then <b>Finish</b>. 
 
 <h3>Installing/updating the HiOSDesktop app:</h3>
