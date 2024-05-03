@@ -5,7 +5,7 @@ Welcome to the source code and official page for the HiOSDesktop Windows app by 
 <h2>What is HiOSDesktop?</h2>
 HiOSDesktop is the desktop version of our mobile app, HiOSMobile, which is the main app by The Highland Cafe™️ Enterprises for doing everything related to our brands, ranging from ordering food and looking at menus at The Highland Cafe™️ to booking a room or using the digital room key at one of our hotel brands.
 <h2>Compatibility</h2>
-HiOSDesktop is only compatible with X64 computers, running Windows 10 1709 and newer.
+HiOSDesktop is only compatible with X64 computers, running Windows 10 1809 and newer.
 <h2>How to Install HiOSDesktop</h2>
 <h3>Do this first when installing for the first time:</h3>
 1) on Windows, open this website, and download the latest .msixbundle file from the releases tab <a href="https://github.com/aarjay123/hiosdesktop/releases/latest">(here)</a><br><br>
