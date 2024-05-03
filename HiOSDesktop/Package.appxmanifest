@@ -12,14 +12,14 @@
 
   <Identity
     Name="3bd63c90-decc-4f12-b263-af38b0e6ab38"
-    Publisher="CN=weebo"
-    Version="1.0.0.0" />
+    Publisher="CN=nuggetdev"
+    Version="1.0.1.0" />
     
   <mp:PhoneIdentity PhoneProductId="3bd63c90-decc-4f12-b263-af38b0e6ab38" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
     
   <Properties>
     <DisplayName>HiOSDesktop</DisplayName>
-    <PublisherDisplayName>weebo</PublisherDisplayName>
+    <PublisherDisplayName>nuggetdev</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -63,6 +63,7 @@
 
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />
+    <Capability Name="internetClient"/>
   </Capabilities>
 
   <genTemplate:Metadata>
