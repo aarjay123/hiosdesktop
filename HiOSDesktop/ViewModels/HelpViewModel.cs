@@ -16,7 +16,7 @@ public partial class HelpViewModel : ObservableRecipient, INavigationAware
 {
     // TODO: Set the default URL to display.
     [ObservableProperty]
-    private Uri source = new("https://sites.google.com/view/hios-by-thc/help-center");
+    private Uri source = new("https://thehighlandcafe.github.io/hioswebcore/desktop/help.html");//TODO: MAKE HIOSWEBCORE PAGES, DEPLOY THIS
 
     [ObservableProperty]
     private bool isLoading = true;

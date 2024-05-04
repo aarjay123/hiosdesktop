@@ -16,7 +16,7 @@ public partial class RoomkeyViewModel : ObservableRecipient, INavigationAware
 {
     // TODO: Set the default URL to display.
     [ObservableProperty]
-    private Uri source = new("https://thehighlandcafe.github.io/hioswebcore/roomkey-desktop.html");
+    private Uri source = new("https://thehighlandcafe.github.io/hioswebcore/desktop/roomkey.html");
 
     [ObservableProperty]
     private bool isLoading = true;
