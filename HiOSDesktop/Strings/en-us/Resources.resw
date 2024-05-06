@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AppDisplayName" xml:space="preserve">
-    <value>HiOSDesktop</value>
+    <value>HiOS for Windows</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>HiOSDesktop</value>
+    <value>HiOS for Windows</value>
   </data>
   <data name="WebView_Loading.Text" xml:space="preserve">
     <value>Loading...</value>
@@ -199,7 +199,7 @@
     <value>Updates</value>
   </data>
   <data name="Settings_Updates_Download.Text" xml:space="preserve">
-    <value>Download a HiOSDesktop Update</value>
+    <value>Download a HiOS for Windows Update</value>
   </data>
   <data name="Settings_Updates_Download_Button.Content" xml:space="preserve">
     <value>Visit Website</value>
@@ -208,10 +208,10 @@
     <value>https://sites.google.com/view/hios-by-thc/hiosdesktop</value>
   </data>
   <data name="Settings_Updates_Header.Text" xml:space="preserve">
-    <value>Update HiOSDesktop</value>
+    <value>Updates</value>
   </data>
   <data name="Settings_Whatsnew.Text" xml:space="preserve">
-    <value>What's New to HiOSDesktop?</value>
+    <value>What's New to HiOS for Windows?</value>
   </data>
   <data name="Settings_Whatsnew_Button.Content" xml:space="preserve">
     <value>What's New?</value>
@@ -227,5 +227,92 @@
   </data>
   <data name="Shell_Help.Content" xml:space="preserve">
     <value>Help</value>
+  </data>
+  <data name="Settings_Apps.Text" xml:space="preserve">
+    <value>Apps and Services</value>
+  </data>
+  <data name="Settings_Hicafe.Text" xml:space="preserve">
+    <value>The Highland Cafe™ Website</value>
+  </data>
+  <data name="Settings_Hicafe_Button.Content" xml:space="preserve">
+    <value>Visit Website</value>
+  </data>
+  <data name="Settings_Hicafe_Button.NavigateUri" xml:space="preserve">
+    <value>https://sites.google.com/view/hicafe</value>
+  </data>
+  <data name="Settings_Hienterprises.Text" xml:space="preserve">
+    <value>The Highland Cafe™ Enterprises Website</value>
+  </data>
+  <data name="Settings_Hienterprises_Button.Content" xml:space="preserve">
+    <value>Visit Website</value>
+  </data>
+  <data name="Settings_Hienterprises_Button.NavigateUri" xml:space="preserve">
+    <value>https://sites.google.com/view/thehighlandcafe</value>
+  </data>
+  <data name="Settings_Hiosapps.Text" xml:space="preserve">
+    <value>HiOS Apps Website</value>
+  </data>
+  <data name="Settings_Hiosapps_Button.Content" xml:space="preserve">
+    <value>Visit Website</value>
+  </data>
+  <data name="Settings_Hiosapps_Button.NavigateUri" xml:space="preserve">
+    <value>https://sites.google.com/view/hios-by-thc</value>
+  </data>
+  <data name="Settings_Hiosmobile.Text" xml:space="preserve">
+    <value>HiOS for Android</value>
+  </data>
+  <data name="Settings_Hiosmobile_Button.Content" xml:space="preserve">
+    <value>Visit website</value>
+  </data>
+  <data name="Settings_Hiosmobile_Button.NavigateUri" xml:space="preserve">
+    <value>https://sites.google.com/view/hios-by-thc/download</value>
+  </data>
+  <data name="Settings_Hirewards.Text" xml:space="preserve">
+    <value>HiRewards for Android</value>
+  </data>
+  <data name="Settings_Hirewards_Button.Content" xml:space="preserve">
+    <value>Visit HiRewards website</value>
+  </data>
+  <data name="Settings_Hirewards_Button.NavigateUri" xml:space="preserve">
+    <value>https://sites.google.com/view/hirewards</value>
+  </data>
+  <data name="Settings_Notifications.Text" xml:space="preserve">
+    <value>Join our WhatsApp channel to get notified every time we update HiOS for Windows.</value>
+  </data>
+  <data name="Settings_Notifications_Button.Content" xml:space="preserve">
+    <value>Update Notifications</value>
+  </data>
+  <data name="Settings_Notifications_Button.NavigateUri" xml:space="preserve">
+    <value>https://whatsapp.com/channel/0029Va8U5lXISTkDAhk4bj3J</value>
+  </data>
+  <data name="Settings_Notifications_Header.Text" xml:space="preserve">
+    <value>Update Notifications</value>
+  </data>
+  <data name="Settings_nuggetdev.Text" xml:space="preserve">
+    <value>nuggetdev Website</value>
+  </data>
+  <data name="Settings_nuggetdev_Button.Content" xml:space="preserve">
+    <value>Visit Website</value>
+  </data>
+  <data name="Settings_nuggetdev_Button.NavigateUri" xml:space="preserve">
+    <value>https://sites.google.com/view/nuggetdev</value>
+  </data>
+  <data name="Settings_Othersoftware.Text" xml:space="preserve">
+    <value>Other software by nuggetdev</value>
+  </data>
+  <data name="Settings_Othersoftware_Button.Content" xml:space="preserve">
+    <value>Visit nuggetdev website</value>
+  </data>
+  <data name="Settings_Othersoftware_Button.NavigateUri" xml:space="preserve">
+    <value>https://sites.google.com/view/nuggetdev</value>
+  </data>
+  <data name="Settings_Recommended_Header.Text" xml:space="preserve">
+    <value>Recommended</value>
+  </data>
+  <data name="Settings_Websites.Text" xml:space="preserve">
+    <value>Websites</value>
+  </data>
+  <data name="Settings_Websites_Header.Text" xml:space="preserve">
+    <value>Our Websites</value>
   </data>
 </root>

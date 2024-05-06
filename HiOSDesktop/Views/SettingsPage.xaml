@@ -45,6 +45,27 @@
                     HorizontalAlignment="Stretch">
                     <Expander.Header>
                         <StackPanel Orientation="Horizontal">
+                            <FontIcon Glyph="&#xE7E7;" Margin="0,0,10,0" />
+                            <TextBlock x:Uid="Settings_Notifications_Header" />
+                        </StackPanel>
+                    </Expander.Header>
+                    <Expander.Content>
+                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                            <TextBlock x:Uid="Settings_Notifications" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_Notifications_Button" />
+                        </StackPanel>
+                    </Expander.Content>
+                </Expander>
+            </StackPanel>
+            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                <Expander
+                    IsExpanded="False"
+                    ExpandDirection="Down"
+                    VerticalAlignment="Top"
+                    HorizontalContentAlignment="Left"
+                    HorizontalAlignment="Stretch">
+                    <Expander.Header>
+                        <StackPanel Orientation="Horizontal">
                             <FontIcon Glyph="&#xE823;" Margin="0,0,10,0" />
                             <TextBlock x:Uid="Settings_Whatsnew_Header" />
                         </StackPanel>
@@ -53,6 +74,62 @@
                         <StackPanel Margin="{StaticResource XSmallTopMargin}">
                             <TextBlock x:Uid="Settings_Whatsnew" Style="{ThemeResource BodyStrongTextBlockStyle}" />
                             <HyperlinkButton x:Uid="Settings_Whatsnew_Button" />
+                        </StackPanel>
+                    </Expander.Content>
+                </Expander>
+            </StackPanel>
+
+            <TextBlock x:Uid="Settings_Apps" Style="{ThemeResource SubtitleTextBlockStyle}" />
+            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                <Expander
+                    IsExpanded="False"
+                    ExpandDirection="Down"
+                    VerticalAlignment="Top"
+                    HorizontalContentAlignment="Left"
+                    HorizontalAlignment="Stretch">
+                    <Expander.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <FontIcon Glyph="&#xE71D;" Margin="0,0,10,0" />
+                            <TextBlock x:Uid="Settings_Recommended_Header" />
+                        </StackPanel>
+                    </Expander.Header>
+                    <Expander.Content>
+                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                            <TextBlock x:Uid="Settings_Hiosmobile" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_Hiosmobile_Button" />
+                            <TextBlock x:Uid="Settings_Hirewards" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_Hirewards_Button" />
+                            <TextBlock x:Uid="Settings_Othersoftware" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_Othersoftware_Button" />
+                        </StackPanel>
+                    </Expander.Content>
+                </Expander>
+            </StackPanel>
+
+            <TextBlock x:Uid="Settings_Websites" Style="{ThemeResource SubtitleTextBlockStyle}" />
+            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                <Expander
+                    IsExpanded="False"
+                    ExpandDirection="Down"
+                    VerticalAlignment="Top"
+                    HorizontalContentAlignment="Left"
+                    HorizontalAlignment="Stretch">
+                    <Expander.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <FontIcon Glyph="&#xEC27;" Margin="0,0,10,0" />
+                            <TextBlock x:Uid="Settings_Websites_Header" />
+                        </StackPanel>
+                    </Expander.Header><!--TODO: WAS ABOUT TO ADD SETTINGS > SOCIALS TO APP!!!-->
+                    <Expander.Content>
+                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                            <TextBlock x:Uid="Settings_Hienterprises" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_Hienterprises_Button" />
+                            <TextBlock x:Uid="Settings_Hicafe" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_Hicafe_Button" />
+                            <TextBlock x:Uid="Settings_nuggetdev" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_nuggetdev_Button" />
+                            <TextBlock x:Uid="Settings_Hiosapps" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                            <HyperlinkButton x:Uid="Settings_Hiosapps_Button" />
                         </StackPanel>
                     </Expander.Content>
                 </Expander>

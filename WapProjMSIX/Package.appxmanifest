@@ -9,7 +9,7 @@
   <Identity
     Name="54f5a227-13d3-4036-b288-65176c2906a0"
     Publisher="CN=nuggetdev"
-    Version="1.0.14.0" />
+    Version="1.0.15.0" />
 
   <Properties>
     <DisplayName>HiOSDesktop</DisplayName>
@@ -31,7 +31,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="HiOSDesktop"
+        DisplayName="HiOS for Windows"
         Description="The desktop app by The Highland Cafe™️"
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"

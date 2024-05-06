@@ -63,7 +63,8 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE785;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItemSeparator />
+            </NavigationView.MenuItems>
+            <NavigationView.FooterMenuItems>
                 <NavigationViewItem x:Uid="Shell_Help" helpers:NavigationHelper.NavigateTo="HiOSDesktop.ViewModels.HelpViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE897;"/>
@@ -74,7 +75,7 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xED15;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-            </NavigationView.MenuItems>
+            </NavigationView.FooterMenuItems>
             <NavigationView.HeaderTemplate>
                 <DataTemplate>
                     <Grid>
