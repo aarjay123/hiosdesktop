@@ -10,193 +10,248 @@
     <Page.Resources>
         <helpers:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
     </Page.Resources>
-    <Grid>
-        <StackPanel
-            x:Name="ContentArea">
+    <ScrollView>
+        <Grid>
+            <StackPanel
+                x:Name="ContentArea">
 
-            <TextBlock x:Uid="Settings_Updates" Style="{ThemeResource SubtitleTextBlockStyle}" />
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <Expander
-                    IsExpanded="False"
-                    ExpandDirection="Down"
-                    VerticalAlignment="Top"
-                    HorizontalContentAlignment="Left"
-                    HorizontalAlignment="Stretch">
-                    <Expander.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <FontIcon Glyph="&#xE896;" Margin="0,0,10,0" />
-                            <TextBlock x:Uid="Settings_Updates_Header" />
-                        </StackPanel>
-                    </Expander.Header>
-                    <Expander.Content>
-                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <TextBlock x:Uid="Settings_Updates_Download" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Updates_Download_Button" />
-                        </StackPanel>
-                    </Expander.Content>
-                </Expander>
-            </StackPanel>
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <Expander
-                    IsExpanded="False"
-                    ExpandDirection="Down"
-                    VerticalAlignment="Top"
-                    HorizontalContentAlignment="Left"
-                    HorizontalAlignment="Stretch">
-                    <Expander.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <FontIcon Glyph="&#xE7E7;" Margin="0,0,10,0" />
-                            <TextBlock x:Uid="Settings_Notifications_Header" />
-                        </StackPanel>
-                    </Expander.Header>
-                    <Expander.Content>
-                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <TextBlock x:Uid="Settings_Notifications" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Notifications_Button" />
-                        </StackPanel>
-                    </Expander.Content>
-                </Expander>
-            </StackPanel>
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <Expander
-                    IsExpanded="False"
-                    ExpandDirection="Down"
-                    VerticalAlignment="Top"
-                    HorizontalContentAlignment="Left"
-                    HorizontalAlignment="Stretch">
-                    <Expander.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <FontIcon Glyph="&#xE823;" Margin="0,0,10,0" />
-                            <TextBlock x:Uid="Settings_Whatsnew_Header" />
-                        </StackPanel>
-                    </Expander.Header>
-                    <Expander.Content>
-                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <TextBlock x:Uid="Settings_Whatsnew" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Whatsnew_Button" />
-                        </StackPanel>
-                    </Expander.Content>
-                </Expander>
-            </StackPanel>
+                <TextBlock x:Uid="Settings_Updates" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE896;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_Updates_Header" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <TextBlock x:Uid="Settings_Updates_Download" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Updates_Download_Button" />
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+                <NavigationViewItemSeparator HorizontalAlignment="Stretch" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE7E7;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_Notifications_Header" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <TextBlock x:Uid="Settings_Notifications" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Notifications_Button" />
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+                <NavigationViewItemSeparator HorizontalAlignment="Stretch" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE823;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_Whatsnew_Header" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <TextBlock x:Uid="Settings_Whatsnew" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Whatsnew_Button" />
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
 
-            <TextBlock x:Uid="Settings_Apps" Style="{ThemeResource SubtitleTextBlockStyle}" />
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <Expander
-                    IsExpanded="False"
-                    ExpandDirection="Down"
-                    VerticalAlignment="Top"
-                    HorizontalContentAlignment="Left"
-                    HorizontalAlignment="Stretch">
-                    <Expander.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <FontIcon Glyph="&#xE71D;" Margin="0,0,10,0" />
-                            <TextBlock x:Uid="Settings_Recommended_Header" />
-                        </StackPanel>
-                    </Expander.Header>
-                    <Expander.Content>
-                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <TextBlock x:Uid="Settings_Hiosmobile" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Hiosmobile_Button" />
-                            <TextBlock x:Uid="Settings_Hirewards" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Hirewards_Button" />
-                            <TextBlock x:Uid="Settings_Othersoftware" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Othersoftware_Button" />
-                        </StackPanel>
-                    </Expander.Content>
-                </Expander>
+                <TextBlock x:Uid="Settings_Apps" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE71D;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_Recommended_Header" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <TextBlock x:Uid="Settings_Hiosmobile" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hiosmobile_Button" />
+                                <TextBlock x:Uid="Settings_Hirewards" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hirewards_Button" />
+                                <TextBlock x:Uid="Settings_Othersoftware" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Othersoftware_Button" />
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+
+                <TextBlock x:Uid="Settings_Websites" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xEC27;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_Websites_Header" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <TextBlock x:Uid="Settings_Hienterprises" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hienterprises_Button" />
+                                <TextBlock x:Uid="Settings_Hicafe" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hicafe_Button" />
+                                <TextBlock x:Uid="Settings_nuggetdev" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_nuggetdev_Button" />
+                                <TextBlock x:Uid="Settings_Hiosapps" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hiosapps_Button" />
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+
+                <TextBlock x:Uid="Settings_Socials" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE72D;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_Hienterprises_Header" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <TextBlock x:Uid="Settings_Hienterprises_Fb" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hienterprises_Fb_Button" />
+                                <TextBlock x:Uid="Settings_Hienterprises_Insta" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hienterprises_Insta_Button" />
+                                <TextBlock x:Uid="Settings_Hienterprises_Threads" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_Hienterprises_Threads_Button" />
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+                <NavigationViewItemSeparator HorizontalAlignment="Stretch" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xEC27;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_nuggetdev_Header" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <TextBlock x:Uid="Settings_nuggetdev_Fb" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_nuggetdev_Fb_Button" />
+                                <TextBlock x:Uid="Settings_nuggetdev_Insta" Style="{ThemeResource BodyStrongTextBlockStyle}" />
+                                <HyperlinkButton x:Uid="Settings_nuggetdev_Insta_Button" />
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+
+                <TextBlock x:Uid="Settings_Personalization" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                    <Expander
+                        IsExpanded="False"
+                        ExpandDirection="Down"
+                        VerticalAlignment="Top"
+                        HorizontalContentAlignment="Left"
+                        HorizontalAlignment="Stretch">
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <FontIcon Glyph="&#xE72D;" Margin="0,0,10,0" />
+                                <TextBlock x:Uid="Settings_Theme" />
+                            </StackPanel>
+                        </Expander.Header>
+                        <Expander.Content>
+                            <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                                <RadioButton
+                                    x:Uid="Settings_Theme_Light"
+                                    Command="{x:Bind ViewModel.SwitchThemeCommand}"
+                                    IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Light, Mode=OneWay}"
+                                    FontSize="15"
+                                    GroupName="AppTheme">       
+                                    <RadioButton.CommandParameter>
+                                        <xaml:ElementTheme>Light</xaml:ElementTheme>
+                                    </RadioButton.CommandParameter>
+                                </RadioButton>
+                                <RadioButton
+                                    x:Uid="Settings_Theme_Dark"
+                                    Command="{x:Bind ViewModel.SwitchThemeCommand}"
+                                    IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Dark, Mode=OneWay}"
+                                    FontSize="15"
+                                    GroupName="AppTheme">
+                                    <RadioButton.CommandParameter>
+                                        <xaml:ElementTheme>Dark</xaml:ElementTheme>
+                                    </RadioButton.CommandParameter>
+                                </RadioButton>
+                                <RadioButton
+                                    x:Uid="Settings_Theme_Default"
+                                    Command="{x:Bind ViewModel.SwitchThemeCommand}"
+                                    IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Default, Mode=OneWay}"
+                                    FontSize="15"
+                                    GroupName="AppTheme">
+                                    <RadioButton.CommandParameter>
+                                        <xaml:ElementTheme>Default</xaml:ElementTheme>
+                                    </RadioButton.CommandParameter>
+                                </RadioButton>
+                            </StackPanel>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+
+                <TextBlock x:Uid="Settings_About" Style="{ThemeResource SubtitleTextBlockStyle}" />
+
+                <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                    <TextBlock Text="{x:Bind ViewModel.VersionDescription, Mode=OneWay}" Style="{ThemeResource BodyTextBlockStyle}" />
+
+                    <TextBlock
+                        x:Uid="Settings_AboutDescription"
+                        Margin="{StaticResource XSmallTopMargin}"
+                        Style="{ThemeResource BodyTextBlockStyle}" />
+                    <HyperlinkButton x:Uid="SettingsPage_PrivacyTermsLink" Margin="{StaticResource SettingsPageHyperlinkButtonMargin}" />
+                </StackPanel>
             </StackPanel>
-
-            <TextBlock x:Uid="Settings_Websites" Style="{ThemeResource SubtitleTextBlockStyle}" />
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <Expander
-                    IsExpanded="False"
-                    ExpandDirection="Down"
-                    VerticalAlignment="Top"
-                    HorizontalContentAlignment="Left"
-                    HorizontalAlignment="Stretch">
-                    <Expander.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <FontIcon Glyph="&#xEC27;" Margin="0,0,10,0" />
-                            <TextBlock x:Uid="Settings_Websites_Header" />
-                        </StackPanel>
-                    </Expander.Header><!--TODO: WAS ABOUT TO ADD SETTINGS > SOCIALS TO APP!!!-->
-                    <Expander.Content>
-                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <TextBlock x:Uid="Settings_Hienterprises" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Hienterprises_Button" />
-                            <TextBlock x:Uid="Settings_Hicafe" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Hicafe_Button" />
-                            <TextBlock x:Uid="Settings_nuggetdev" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_nuggetdev_Button" />
-                            <TextBlock x:Uid="Settings_Hiosapps" Style="{ThemeResource BodyStrongTextBlockStyle}" />
-                            <HyperlinkButton x:Uid="Settings_Hiosapps_Button" />
-                        </StackPanel>
-                    </Expander.Content>
-                </Expander>
-            </StackPanel>
-
-            <TextBlock x:Uid="Settings_Personalization" Style="{ThemeResource SubtitleTextBlockStyle}" />
-            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
-                <Expander
-                    IsExpanded="False"
-                    ExpandDirection="Down"
-                    VerticalAlignment="Top"
-                    HorizontalContentAlignment="Left"
-                    HorizontalAlignment="Stretch">
-                    <Expander.Header>
-                        <StackPanel Orientation="Horizontal">
-                            <FontIcon Glyph="&#xE790;" Margin="0,0,10,0" />
-                            <TextBlock x:Uid="Settings_Theme" />
-                        </StackPanel>
-                    </Expander.Header>
-                    <Expander.Content>
-                        <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                            <RadioButton
-                                x:Uid="Settings_Theme_Light"
-                                Command="{x:Bind ViewModel.SwitchThemeCommand}"
-                                IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Light, Mode=OneWay}"
-                                FontSize="15"
-                                GroupName="AppTheme">       
-                                <RadioButton.CommandParameter>
-                                    <xaml:ElementTheme>Light</xaml:ElementTheme>
-                                </RadioButton.CommandParameter>
-                            </RadioButton>
-                            <RadioButton
-                                x:Uid="Settings_Theme_Dark"
-                                Command="{x:Bind ViewModel.SwitchThemeCommand}"
-                                IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Dark, Mode=OneWay}"
-                                FontSize="15"
-                                GroupName="AppTheme">
-                                <RadioButton.CommandParameter>
-                                    <xaml:ElementTheme>Dark</xaml:ElementTheme>
-                                </RadioButton.CommandParameter>
-                            </RadioButton>
-                            <RadioButton
-                                x:Uid="Settings_Theme_Default"
-                                Command="{x:Bind ViewModel.SwitchThemeCommand}"
-                                IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Default, Mode=OneWay}"
-                                FontSize="15"
-                                GroupName="AppTheme">
-                                <RadioButton.CommandParameter>
-                                    <xaml:ElementTheme>Default</xaml:ElementTheme>
-                                </RadioButton.CommandParameter>
-                            </RadioButton>
-                        </StackPanel>
-                    </Expander.Content>
-                </Expander>
-            </StackPanel>
-
-            <TextBlock x:Uid="Settings_About" Style="{ThemeResource SubtitleTextBlockStyle}" />
-
-            <StackPanel Margin="{StaticResource XSmallTopMargin}">
-                <TextBlock Text="{x:Bind ViewModel.VersionDescription, Mode=OneWay}" Style="{ThemeResource BodyTextBlockStyle}" />
-
-                <TextBlock
-                    x:Uid="Settings_AboutDescription"
-                    Margin="{StaticResource XSmallTopMargin}"
-                    Style="{ThemeResource BodyTextBlockStyle}" />
-                <HyperlinkButton x:Uid="SettingsPage_PrivacyTermsLink" Margin="{StaticResource SettingsPageHyperlinkButtonMargin}" />
-            </StackPanel>
-        </StackPanel>
-    </Grid>
+        </Grid>
+    </ScrollView>
 </Page>

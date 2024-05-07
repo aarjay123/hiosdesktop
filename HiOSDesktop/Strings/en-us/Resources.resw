@@ -315,4 +315,58 @@
   <data name="Settings_Websites_Header.Text" xml:space="preserve">
     <value>Our Websites</value>
   </data>
+  <data name="Settings_Hienterprises_Fb.Text" xml:space="preserve">
+    <value>The Highland Cafe™ Enterprises Facebook Page</value>
+  </data>
+  <data name="Settings_Hienterprises_Fb_Button.Content" xml:space="preserve">
+    <value>Facebook Page</value>
+  </data>
+  <data name="Settings_HiEnterprises_Fb_Button.NavigateUri" xml:space="preserve">
+    <value>https://www.facebook.com/profile.php?id=100095224335357</value>
+  </data>
+  <data name="Settings_Hienterprises_Header.Text" xml:space="preserve">
+    <value>The Highland Cafe™ Enterprises</value>
+  </data>
+  <data name="Settings_Socials.Text" xml:space="preserve">
+    <value>Socials</value>
+  </data>
+  <data name="Settings_Hienterprises_Insta.Text" xml:space="preserve">
+    <value>The Highland Cafe™ Enterprises Instagram Profile</value>
+  </data>
+  <data name="Settings_Hienterprises_Insta_Button.Content" xml:space="preserve">
+    <value>Instagram Profile</value>
+  </data>
+  <data name="Settings_Hienterprises_Insta_Button.NavigateUri" xml:space="preserve">
+    <value>https://instagram.com/thehighlandcafe</value>
+  </data>
+  <data name="Settings_Hienterprises_Threads.Text" xml:space="preserve">
+    <value>The Highland Cafe™ Enterprises Threads Profile</value>
+  </data>
+  <data name="Settings_Hienterprises_Threads_Button.Content" xml:space="preserve">
+    <value>Threads Profile</value>
+  </data>
+  <data name="Settings_Hienterprises_Threads_Button.NavigateUri" xml:space="preserve">
+    <value>https://threads.net/@thehighlandcafe</value>
+  </data>
+  <data name="Settings_nuggetdev_Fb.Text" xml:space="preserve">
+    <value>nuggetdev Facebook Page</value>
+  </data>
+  <data name="Settings_nuggetdev_Fb_Button.Content" xml:space="preserve">
+    <value>Facebook Page</value>
+  </data>
+  <data name="Settings_nuggetdev_Fb_Button.NavigateUri" xml:space="preserve">
+    <value>https://www.facebook.com/profile.php?id=61558122144435</value>
+  </data>
+  <data name="Settings_nuggetdev_Header.Text" xml:space="preserve">
+    <value>nuggetdev</value>
+  </data>
+  <data name="Settings_nuggetdev_Insta.Text" xml:space="preserve">
+    <value>nuggetdev Instagram Profile</value>
+  </data>
+  <data name="Settings_nuggetdev_Insta_Button.Content" xml:space="preserve">
+    <value>Instagram Profile</value>
+  </data>
+  <data name="Settings_nuggetdev_Insta_Button.NavigateUri" xml:space="preserve">
+    <value>https://instagram.com/nuggetdev</value>
+  </data>
 </root>
