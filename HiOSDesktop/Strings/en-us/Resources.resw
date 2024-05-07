@@ -330,6 +330,9 @@
   <data name="Settings_Socials.Text" xml:space="preserve">
     <value>Socials</value>
   </data>
+  <data name="Settings_About_Hioswebcore.Text" xml:space="preserve">
+    <value>About HiOSWebCore</value>
+  </data>
   <data name="Settings_Hienterprises_Insta.Text" xml:space="preserve">
     <value>The Highland Cafe™ Enterprises Instagram Profile</value>
   </data>
