@@ -372,4 +372,7 @@
   <data name="Settings_nuggetdev_Insta_Button.NavigateUri" xml:space="preserve">
     <value>https://instagram.com/nuggetdev</value>
   </data>
+  <data name="Shell_Soon.Content" xml:space="preserve">
+    <value>Coming Soon</value>
+  </data>
 </root>

@@ -48,34 +48,47 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE80F;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+                
                 <NavigationViewItem x:Uid="Shell_Food" helpers:NavigationHelper.NavigateTo="HiOSDesktop.ViewModels.FoodViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xED56;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+                
                 <NavigationViewItem x:Uid="Shell_Hotel" helpers:NavigationHelper.NavigateTo="HiOSDesktop.ViewModels.HotelViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE731;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+                
                 <NavigationViewItem x:Uid="Shell_Roomkey" helpers:NavigationHelper.NavigateTo="HiOSDesktop.ViewModels.RoomkeyViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE785;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
+            
+            <!--Footer-->
             <NavigationView.FooterMenuItems>
+                <NavigationViewItem x:Uid="Shell_Soon" helpers:NavigationHelper.NavigateTo="HiOSDesktop.ViewModels.SoonViewModel">
+                    <NavigationViewItem.Icon>
+                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xECC5;"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+                
                 <NavigationViewItem x:Uid="Shell_Help" helpers:NavigationHelper.NavigateTo="HiOSDesktop.ViewModels.HelpViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE897;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
+
                 <NavigationViewItem x:Uid="Shell_Feedback" helpers:NavigationHelper.NavigateTo="HiOSDesktop.ViewModels.FeedbackViewModel">
                     <NavigationViewItem.Icon>
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xED15;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.FooterMenuItems>
+            
             <NavigationView.HeaderTemplate>
                 <DataTemplate>
                     <Grid>

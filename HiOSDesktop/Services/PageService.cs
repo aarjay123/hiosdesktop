@@ -18,6 +18,7 @@ public class PageService : IPageService
         Configure<FoodViewModel, FoodPage>();
         Configure<HotelViewModel, HotelPage>();
         Configure<RoomkeyViewModel, RoomkeyPage>();
+        Configure<SoonViewModel, SoonPage>();
         Configure<HelpViewModel, HelpPage>();
         Configure<FeedbackViewModel, FeedbackPage>();
         Configure<SettingsViewModel, SettingsPage>();
