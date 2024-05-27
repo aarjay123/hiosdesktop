@@ -119,9 +119,11 @@
   </resheader>
   <data name="AppDisplayName" xml:space="preserve">
     <value>HiOS for Windows</value>
+    <comment>App name</comment>
   </data>
   <data name="AppDescription" xml:space="preserve">
     <value>HiOS for Windows</value>
+    <comment>Description of app</comment>
   </data>
   <data name="WebView_Loading.Text" xml:space="preserve">
     <value>Loading...</value>
@@ -131,30 +133,38 @@
   </data>
   <data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Browser back</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="BrowserBackButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Browser back</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Browser forward</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="BrowserForwardButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Browser forward</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="WebView_Reload.Content" xml:space="preserve">
     <value>Reload</value>
   </data>
   <data name="ReloadButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Reload</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="ReloadButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Reload</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
     <value>Open in browser</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Open in browser</value>
+    <comment>Browser controls</comment>
   </data>
   <data name="Shell_Home.Content" xml:space="preserve">
     <value>Home</value>
@@ -185,9 +195,11 @@
   </data>
   <data name="Settings_About.Text" xml:space="preserve">
     <value>About this application</value>
+    <comment>Settings &gt; About App text</comment>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
-    <value>Copyright © The Highland Cafe™ Ltd. 2024. All Rights Reserved.</value>
+    <value>Copyright © The Highland Cafe™ Ltd., nuggetdev 2024. All Rights Reserved.</value>
+    <comment>Settings &gt; copyright info</comment>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
     <value>Privacy Policy</value>
@@ -230,24 +242,31 @@
   </data>
   <data name="Settings_Apps.Text" xml:space="preserve">
     <value>Apps and Services</value>
+    <comment>Settings &gt; Apps title</comment>
   </data>
   <data name="Settings_Hicafe.Text" xml:space="preserve">
     <value>The Highland Cafe™ Website</value>
+    <comment>Settings &gt; HiCafe website title</comment>
   </data>
   <data name="Settings_Hicafe_Button.Content" xml:space="preserve">
     <value>Visit Website</value>
+    <comment>Settings &gt; HiCafe website BUTTON title</comment>
   </data>
   <data name="Settings_Hicafe_Button.NavigateUri" xml:space="preserve">
     <value>https://sites.google.com/view/hicafe</value>
+    <comment>Settings &gt; HiCafe website BUTTON URI</comment>
   </data>
   <data name="Settings_Hienterprises.Text" xml:space="preserve">
     <value>The Highland Cafe™ Enterprises Website</value>
+    <comment>Settings &gt; HiEnterprises website title</comment>
   </data>
   <data name="Settings_Hienterprises_Button.Content" xml:space="preserve">
     <value>Visit Website</value>
+    <comment>Settings &gt; HiEnterprises website BUTTON title</comment>
   </data>
   <data name="Settings_Hienterprises_Button.NavigateUri" xml:space="preserve">
     <value>https://sites.google.com/view/thehighlandcafe</value>
+    <comment>Settings &gt; HiEnterprises website BUTTON URI</comment>
   </data>
   <data name="Settings_Hiosapps.Text" xml:space="preserve">
     <value>HiOS Apps Website</value>
@@ -317,39 +336,50 @@
   </data>
   <data name="Settings_Hienterprises_Fb.Text" xml:space="preserve">
     <value>The Highland Cafe™ Enterprises Facebook Page</value>
+    <comment>Settings &gt; HiEnterprises FB title</comment>
   </data>
   <data name="Settings_Hienterprises_Fb_Button.Content" xml:space="preserve">
     <value>Facebook Page</value>
+    <comment>Settings &gt; HiEnterprises FB BUTTON title</comment>
   </data>
   <data name="Settings_HiEnterprises_Fb_Button.NavigateUri" xml:space="preserve">
     <value>https://www.facebook.com/profile.php?id=100095224335357</value>
+    <comment>Settings &gt; HiEnterprises FB BUTTON URI</comment>
   </data>
   <data name="Settings_Hienterprises_Header.Text" xml:space="preserve">
     <value>The Highland Cafe™ Enterprises</value>
+    <comment>Settings &gt; HiEnterprises socials header</comment>
   </data>
   <data name="Settings_Socials.Text" xml:space="preserve">
     <value>Socials</value>
   </data>
   <data name="Settings_About_Hioswebcore.Text" xml:space="preserve">
     <value>About HiOSWebCore</value>
+    <comment>Settings &gt; About HiOSWebCore text</comment>
   </data>
   <data name="Settings_Hienterprises_Insta.Text" xml:space="preserve">
     <value>The Highland Cafe™ Enterprises Instagram Profile</value>
+    <comment>Settings &gt; HiEnterprises Insta title</comment>
   </data>
   <data name="Settings_Hienterprises_Insta_Button.Content" xml:space="preserve">
     <value>Instagram Profile</value>
+    <comment>Settings &gt; HiEnterprises Insta BUTTON title</comment>
   </data>
   <data name="Settings_Hienterprises_Insta_Button.NavigateUri" xml:space="preserve">
     <value>https://instagram.com/thehighlandcafe</value>
+    <comment>Settings &gt; HiEnterprises Insta BUTTON URI</comment>
   </data>
   <data name="Settings_Hienterprises_Threads.Text" xml:space="preserve">
     <value>The Highland Cafe™ Enterprises Threads Profile</value>
+    <comment>Settings &gt; HiEnterprises Threads title</comment>
   </data>
   <data name="Settings_Hienterprises_Threads_Button.Content" xml:space="preserve">
     <value>Threads Profile</value>
+    <comment>Settings &gt; HiEnterprises Threads BUTTON title</comment>
   </data>
   <data name="Settings_Hienterprises_Threads_Button.NavigateUri" xml:space="preserve">
     <value>https://threads.net/@thehighlandcafe</value>
+    <comment>Settings &gt; HiEnterprises Threads BUTTON URI</comment>
   </data>
   <data name="Settings_nuggetdev_Fb.Text" xml:space="preserve">
     <value>nuggetdev Facebook Page</value>
@@ -374,5 +404,14 @@
   </data>
   <data name="Shell_Soon.Content" xml:space="preserve">
     <value>Coming Soon</value>
+  </data>
+  <data name="Help_Section1.Text" xml:space="preserve">
+    <value>How to use HiOS for Windows</value>
+  </data>
+  <data name="Help_Tutorial_Header.Text" xml:space="preserve">
+    <value>Navigation Tutorial</value>
+  </data>
+  <data name="Placeholder.Text" xml:space="preserve">
+    <value>Placeholder</value>
   </data>
 </root>
